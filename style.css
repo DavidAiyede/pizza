@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", Georgia, "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+span {
+  color: rgba(238, 80, 80, 0.747);
+  font-family: cursive;
+}
+p {
+  margin-top: 2%;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 1%;
+}
+h4 {
+  font-size: 17px;
+}
+body {
+  background-color: white;
+}
+button {
+  background-color: blue;
+  padding: 1% 4%;
+  border-radius: 20px;
+  color: white;
+  transition: 1s;
+  box-shadow: 5px solid blue;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.15);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_image {
+  width: 200px;
+}
+.menu_image {
+  width: 100px;
+  margin-left: 10%;
+}
+.text {
+  margin: 10% 5%;
+}
+.img {
+  width: 7%;
+  height: 75%;
+  right: 45%;
+  bottom: 10%;
+  cursor: pointer;
+  position: absolute;
+}
+.pizza_image {
+  width: 550%;
+  /* margin-left: 200%; */
+}
+@media screen and (width: 1024px) {
+  .pizza_image {
+    margin-left: 180%;
+  }
+}
+@media screen and (width: 768px) {
+  .pizza_image {
+    margin-left: 300%;
+    margin-top: 200%;
+  }
+  .logo_image {
+    margin-left: 5%;
+  }
+  .menu_image {
+    margin-left: 2%;
+  }
+  ul {
+    margin-right: 0;
+  }
+  h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (width: 425px) {
+  ul {
+    visibility: hidden;
+  }
+  .logo_image {
+    margin-left: 100%;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .pizza_image {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  .logo_image {
+    width: 80%;
+    margin-left: 150%;
+  }
+  .menu_image {
+    width: 80%;
+    margin-left: 0%;
+  }
+  button {
+    padding: 5%;
+    font-size: 40px;
+    border-radius: 50px;
+  }
+  .text {
+    margin: 10%;
+  }
+}
+@media screen and (width: 375px) {
+  .pizza_image {
+    margin-left: -300%;
+    margin-top: 900%;
+    width: 900%;
+  }
+  .img {
+    width: 10%;
+  }
+  button {
+    margin-top: 110%;
+    font-size: 40px;
+    margin-left: 28%;
+  }
+  .logo_image {
+    width: 50%;
+    margin-left: 80%;
+  }
+  ul {
+    visibility: hidden;
+  }
+  .menu_image {
+    margin-left: -50%;
+    width: 15%;
+  }
+}
+@media screen and (width: 320px) {
+  .pizza_image {
+    margin-left: -300%;
+    margin-top: 1500%;
+    width: 900%;
+  }
+  .img {
+    width: 10%;
+  }
+  button {
+    margin-top: 120%;
+    padding: 1%;
+    font-size: 40px;
+    border-radius: 50px;
+    margin-left: 28%;
+  }
+  .logo_image {
+    width: 70%;
+    margin-left: 80%;
+  }
+  ul {
+    visibility: hidden;
+  }
+  .menu_image {
+    margin-left: -50%;
+    width: 20%;
+  }
+}
